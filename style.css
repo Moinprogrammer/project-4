@@ -798,6 +798,321 @@ footer{
 /*last section end*/
 
 /*responive start*/
+
+/*Destop view*/
+@media (min-width:1024px) and (max-width:1310px){
+    .nav .logo {
+        padding-left: 30px;
+    }
+    .nav .menu {
+        padding-left: 50px;
+    }
+    .nav .appoin a {
+        padding: 12px 20px;
+    }
+}
+
+/*Tab view*/
+@media (min-width:769px) and (max-width:1023px){
+    .top {
+       display: flex;
+    }
+    .social {
+        width: 15%;
+        margin-left: 61px;
+    }
+    .contact {
+        width: 69%;
+        margin-left: -50px;
+    }
+    .Checkbtn{
+        display: block;
+    }
+      header .nav {
+        margin-right: 0px;
+    }
+    header .nav ul {
+    position: absolute;
+    width: 98.8%;
+    height: 100vh;
+    background:#4C4C4C;
+    top: 29px;
+    left: -200%;
+    transition: all 0.1s;
+    }
+    header .nav ul li{
+        line-height: 30px;
+        clear: both;
+        margin-top: 15px;
+    }
+    #Check:checked ~ ul{
+        left: 0;
+        padding-left: 10px;
+        margin-top: 23px;
+    }
+    
+    header .nav ul li a{
+        font-size: 20px;
+        text-align: center;
+    }
+    .navbar {
+        width: 100%;
+        height: auto;
+    }
+    .appoin{
+        display: none;
+    }
+    .nav .logo {
+        padding-left: 0;
+        clear: right;
+        display: block;
+        width: 100%;
+    }
+    .nav .menu {
+        position: relative;
+        top: 0;
+        padding: 0;
+        display: block;
+        width: 80%;
+        background:#4C4C4C;
+    }
+    label i{
+        color: #fff;
+    }
+    .Checkbtn {
+        font-size: 30px;
+        line-height: 43px;
+        padding: 5px;
+        float: none;
+    }
+    header .nav ul li a {
+        font-size: 16px;
+        text-align: center;
+    }
+    .nav li a {
+        text-decoration: none;
+        position: relative;
+        top: 0px;
+        color: white;
+        font-size: -18px;
+        font-weight: normal;
+    }
+    /*Section One Start*/
+    .section1 .slider {
+        position: absolute;
+        bottom: 200px;
+        left: 70px;
+    }
+    .slider h1 {
+        font-size: 64px;
+    }
+    .slider h3 {
+        font-size: 62px;
+    }
+    .slider a {
+    padding: 18px 26px;
+    }
+    /*Section One End*/
+    /*Section Two Start*/
+    .service {
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+    .service i {
+        font-size: 52px;
+        color: #fff;
+    }
+    .service  h3 {
+        font-size: 26px;
+    }
+    .service a {
+        font-size: 16px;
+    }
+    /*Section Two End*/
+     /*Section Three start*/
+     .wel {
+        display: flex;
+        flex-wrap: wrap;
+        margin-right: 0;
+        margin-left: 0;
+    }
+    .img {
+        display: block;
+        width: 100%;
+    }
+    .img img {
+        width: 100%;
+    }
+    .img2 {
+        position: relative;
+        bottom: -96px;
+        right: -223px;
+        display: none;
+    }
+    .text {
+        position: relative;
+        width: 100%;
+        min-height: 1px;
+        padding-right: 15px;
+        padding-left: 15px;
+        margin-top:480px;
+    }
+    .text h3 {
+        font-size: 28px;
+    }
+    .text p {
+        font-size: 14px;
+    }
+    .text li {
+        font-size: 14px;
+    }
+    .text li i {
+        margin-right: 0;
+    }
+    .text a {       
+        padding: 10px 18px;
+        font-size: 13px;
+    }
+    /*Section Three End*/
+    .text {
+        width: 100%;
+        padding-left: 58px;
+    }
+    .text h2 {
+        font-size: 18px;
+        margin-top: 89px;
+    }
+     /*Section Three start*/
+     .wel {
+        display: flex;
+        flex-wrap: wrap;
+        margin-right: 0;
+        margin-left: 0;
+    }
+    .img {
+        display: block;
+        width: 100%;
+    }
+    .img img {
+        width: 100%;
+    }
+    .img2 {
+        position: relative;
+        bottom: -96px;
+        right: -223px;
+        display: none;
+    }
+    .text {
+        position: relative;
+        width: 100%;
+        min-height: 1px;
+        padding-right: 15px;
+        padding-left: 15px;
+        margin-top:480px;
+    }
+    .text h3 {
+        font-size: 28px;
+    }
+    .text p {
+        font-size: 14px;
+    }
+    .text li {
+        font-size: 14px;
+    }
+    .text li i {
+        margin-right: 0;
+    }
+    .text a {       
+        padding: 10px 18px;
+        font-size: 13px;
+    }
+    /*Section Three End*/
+    /*Section4 start*/
+    .zoom {
+        width: 100%;
+    }
+    .act {
+        display: inline-block;
+        width: 44%;
+    }
+    .act1 {
+        display: inline-block;
+        width: 44%;
+    }
+    /*Section4 end*/
+     /*section6 start*/
+     .tab {
+        width: 100%;
+    }
+    .tab ul {
+        display: flex;
+        align-content: center;
+        justify-content: space-between;
+        padding: 18px 20px;
+    }
+    .tab ul li a {
+        text-decoration: none;
+        font-size: 20px;
+        font-weight: 400;
+        color: #1F1F1F;
+        padding: 0;
+    }
+    /*section6 End*/
+
+    .half1 {
+        margin-left: 64px;
+        margin-top: 29px;
+    }
+    .half2 {
+        padding-right: 30px;
+        margin-top: -14px;
+    }
+
+    .section8 {
+        padding-top: 46px;
+        margin-left: 34px;
+    }
+    /*section9 start*/
+    .section9 .emer {
+        display: block;
+    }
+    .div1 .t1 {
+        float: left;
+        top: 26px;
+        left: 35px;
+    }
+    .section9 .emer h3 {
+        font-size: 25px;
+    }
+    .div1 .btn {
+        position: relative;
+        top: 70px;
+    }
+    .section9 .emer a {
+        padding: 13px 28px;
+        font-size: 14px;
+    }
+    .div2 .t1 {
+        float: left;
+        top: 26px;
+        left: 35px;
+    }
+    .div2 .btn {
+        position: relative;
+        top: 70px;
+    }
+    /*section9 end*/
+
+    .foot {
+        width: 95%;
+    }
+    .row2 h3 {
+        font-size: 19px;
+    }
+}
+
+/*Mobile veiw*/
 @media (max-width:768px){
     .top {
         display:flex;
@@ -832,8 +1147,7 @@ footer{
         color: #919191;
         margin-left: 0;
     }
-
-
+    /*nav start*/
     .Checkbtn{
         display: block;
     }
@@ -906,8 +1220,8 @@ footer{
         font-size: -18px;
         font-weight: normal;
     }
-
-
+    /*nav end*/
+    /*Section One Start*/
     .section1 .slider {
         position: absolute;
         bottom: 150px;
@@ -926,8 +1240,8 @@ footer{
     .slider a {
     padding: 18px 20px;
     }
-
-
+    /*Section One End*/
+    /*Section Two Start*/
     .service {
         display: block;
         width: 100%;
@@ -943,6 +1257,8 @@ footer{
     .service a {
         font-size: 13px;
     }
+    /*Section Two End*/
+    /*Section Three start*/
     .wel {
         display: flex;
         flex-wrap: wrap;
@@ -986,7 +1302,8 @@ footer{
         padding: 10px 18px;
         font-size: 13px;
     }
-
+    /*Section Three End*/
+    /*Section Four Start*/
     .section4 .dep h3 {
         font-size: 30px;
     }
@@ -1034,7 +1351,8 @@ footer{
     .ser .learn_more {
         font-size: 14px;
     }
-
+    /*Section Four End*/
+    /*Section5 Start*/
     .quate i {
         font-size: 37px;
     }
@@ -1046,7 +1364,8 @@ footer{
     .quate h4 {
         font-size: 15px;
     }
-
+    /*section5 End*/
+    /*section6 start*/
     .tab {
         width: 100%;
     }
@@ -1063,7 +1382,8 @@ footer{
         color: #1F1F1F;
         padding: 0;
     }
-
+    /*section6 End*/
+    /*section7 start*/
     .section7 {
         display: block;
     }
@@ -1072,7 +1392,8 @@ footer{
         margin-left: 15px;
         margin-top: 16px;
     }
-
+    /*section7 End*/
+    /*section8 Start*/
     .section8 {
         padding-top: 120px;
         padding-bottom: 90px;
@@ -1098,7 +1419,8 @@ footer{
         width: 70%;
         margin-left: 0;
     }
-
+    /*section8 End*/
+    /*section9 start*/
     .section9 .emer {
         display: block;
     }
@@ -1127,7 +1449,8 @@ footer{
         position: relative;
         top: 46px;
     }
-
+    /*section9 end*/
+    /*footer start*/
     .foot {
         width: 80%;
         padding-top: 67px;
@@ -1150,7 +1473,8 @@ footer{
         padding: 0 17px;
         line-height: 45px;
     }
-
+    /*footer end*/
+    /*last section start*/
     .last {
         height: auto;
         padding-bottom: 10px;
@@ -1159,5 +1483,6 @@ footer{
         font-size: 15px;
         padding-top: 21px;
     }
+    /*last section end*/
 
 }
